@@ -1,0 +1,39 @@
+.board {
+    display: grid;
+    gap: 8px;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-color: #f8d7da;
+    border-radius: 12px;
+    border: 2px solid #e0a4a8;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cell:hover {
+    transform: scale(1.05);
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background: #ffe3e6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
