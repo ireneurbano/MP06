@@ -1,0 +1,8 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Hace que ocupe toda la pantalla */
+  text-align: center;
+}
